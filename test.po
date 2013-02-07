@@ -19,11 +19,16 @@ msgstr ""
 msgid "We'll send you an email containing the prospectus shortly. Boewhja"
 msgstr ""
 
+
 msgid "Peppi en kokkie"
 msgstr ""
 
+msgid "dddd"
+msgstr "Wazzup"
+
+#, fuzzy
 msgid "Knallen"
-msgstr "Bowja Master"
+msgstr ""Batsen nondedju"
 
 # Commentaar hier
 msgid "Tuut"
@@ -31,3 +36,11 @@ msgstr "Nee"
 
 msgid "Test"
 msgstr "I'm text"
+
+
+msgid "Test"
+msgstr "I'm text"
+
+
+msgid "Test 2"
+msgstr "Whoppa"
