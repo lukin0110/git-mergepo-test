@@ -22,9 +22,17 @@ msgstr ""
 msgid "Peppi en kokkie"
 msgstr ""
 
+#, fuzzy
 msgid "Knallen"
-msgstr "Bowja branch"
+msgstr ""
+"#-#-#-#-#  .merge_file_FocZZl (PACKAGE VERSION)  #-#-#-#-#\n"
+"Bowja branch\n"
+"#-#-#-#-#  .merge_file_XDM6qd (PACKAGE VERSION)  #-#-#-#-#\n"
+"Bowja Master"
 
 # Commentaar hier
 msgid "Tuut"
 msgstr "Nee"
+
+msgid "Test"
+msgstr "I'm text"
