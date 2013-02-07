@@ -22,13 +22,8 @@ msgstr ""
 msgid "Peppi en kokkie"
 msgstr ""
 
-#, fuzzy
 msgid "Knallen"
-msgstr ""
-"#-#-#-#-#  .merge_file_FocZZl (PACKAGE VERSION)  #-#-#-#-#\n"
-"Bowja branch\n"
-"#-#-#-#-#  .merge_file_XDM6qd (PACKAGE VERSION)  #-#-#-#-#\n"
-"Bowja Master"
+msgstr "Bowja Master"
 
 # Commentaar hier
 msgid "Tuut"
