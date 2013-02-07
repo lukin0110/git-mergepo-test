@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-07 10:46+0100\n"
-"PO-Revision-Date: MASTER YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: BRANCH YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -22,9 +22,17 @@ msgstr ""
 msgid "Peppi en kokkie"
 msgstr ""
 
+#, fuzzy
+msgid "Knallen"
+msgstr ""
+"#-#-#-#-#  .merge_file_FocZZl (PACKAGE VERSION)  #-#-#-#-#\n"
+"Bowja branch\n"
+"#-#-#-#-#  .merge_file_XDM6qd (PACKAGE VERSION)  #-#-#-#-#\n"
+"Bowja Master"
+
+# Commentaar hier
+msgid "Tuut"
+msgstr "Nee"
+
 msgid "Test"
 msgstr "I'm text"
-
-msgid "Knallen"
-msgstr "Bowja Master"
-
