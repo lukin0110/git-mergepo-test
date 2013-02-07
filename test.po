@@ -23,7 +23,7 @@ msgstr "Wazzup"
 
 #, fuzzy
 msgid "Knallen"
-msgstr "Batsen nondedju"
+msgstr "Batsen nondedju, opnieuw master"
 
 # Commentaar hier
 msgid "Tuut"
