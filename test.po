@@ -26,5 +26,6 @@ msgstr ""
 msgid "Knallen"
 msgstr "Bowja"
 
-#~ msgid "Tuut"
-#~ msgstr "Nee"
+# Commentaar hier
+msgid "Tuut"
+msgstr "Nee"
