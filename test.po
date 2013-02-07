@@ -23,6 +23,9 @@ msgstr ""
 msgid "Peppi en kokkie"
 msgstr ""
 
+msgid "Test"
+msgstr "I'm text"
+
 msgid "Knallen"
 msgstr "Bowja"
 
