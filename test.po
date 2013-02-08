@@ -32,4 +32,4 @@ msgid "Test"
 msgstr "I'm text"
 
 msgid "Test 2"
-msgstr "Whoppa master 2"
+msgstr "Whoppa master 3"
