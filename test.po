@@ -38,4 +38,4 @@ msgstr "I'm text"
 
 
 msgid "Test 2"
-msgstr "Whoppa"
+msgstr "Whoppa branch"
