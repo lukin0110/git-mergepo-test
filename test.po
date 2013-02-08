@@ -31,5 +31,6 @@ msgstr "Nee"
 msgid "Test"
 msgstr "I'm text"
 
+#, fuzzy
 msgid "Test 2"
-msgstr "Whoppa branch 3"
+msgstr "Whoppa branch 3\n"
