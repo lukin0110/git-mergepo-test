@@ -1,0 +1,13 @@
+#!/bin/sh
+#echo "Pre remove"
+
+echo "Removing /usr/local/bin/git-merge-po"
+if [ -f /usr/local/bin/git-merge-po ]
+then
+	rm /usr/local/bin/git-merge-po
+fi
+
+echo "Removing custom driver config"
+echo "TODO ..."
+
+
