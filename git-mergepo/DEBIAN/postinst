@@ -1,0 +1,24 @@
+#!/bin/sh
+echo "Post installation"
+
+CONFIG='\n\n[merge "pofile"]\n\tname = Gettext merge driver\n\tdriver = /usr/local/bin/git-merge-po %O %A %B\n\n'
+
+if [ ! -f /etc/gitconfig ]
+then
+	echo "Creating /etc/gitconfig"
+	echo $CONFIG > /etc/gitconfig
+
+elif ! grep -q '\[merge "pofile"\]' /etc/gitconfig;
+then
+	echo "Append to /etc/gitconfig"
+	echo $CONFIG >> /etc/gitconfig
+fi
+
+echo "\n\tIMPORTANT NOTE"
+echo "\tTo activate this custom po merge driver you'll have to create a .gitattributes file in your repository"
+echo "\tAppend the following lines to your .gitattributes:"
+echo "\t*.po   merge=pofile"
+echo "\t*.pot  merge=pofile"
+echo ""
+echo "Done, git is configured!"
+
