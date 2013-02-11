@@ -9,7 +9,7 @@ Install the package:
 sudo dpkg -i git-mergopo.deb
 ```
 
-To activate the custom merge drivers you'll have to add the following lines to the .gitattributes file the repository:
+To activate the custom merge drivers you'll have to add the following lines to the `.gitattributes` file of the repository:
 ```
 *.po   merge=pofile
 *.pot  merge=pofile
