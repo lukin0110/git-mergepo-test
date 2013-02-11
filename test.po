@@ -17,13 +17,6 @@ msgstr ""
 msgid "Peppi en kokkie"
 msgstr ""
 
-msgid "dddd"
-msgstr "Wazzup"
-
-#, fuzzy
-msgid "Knallen"
-msgstr "Batsen nondedju, opnieuw master"
-
 # Commentaar hier
 msgid "Tuut"
 msgstr "Nee"
