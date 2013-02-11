@@ -42,7 +42,7 @@ rm $header $temp
  
 # Check for conflicts
 conflicts=$(grep -c "#-#" $A)
-test $conflicts -gt 0 && { echo "TRANSLATION CONFLICT: $conflicts"; exit 1; }
+test $conflicts -gt 0 && { echo "TRANSLATION CONFLICT: ($conflicts / 2)"; exit 1; }
 exit 0
 
 
