@@ -18,7 +18,11 @@
 #   *.pot  merge=pofile
 #
 # - When merging branches, conflicts in PO files will be maked with "#-#-#-#"
-# 
+#
+# %O: ancestor's version
+# %A: current version
+# %B: other branch version
+#
 O=$1
 A=$2
 B=$3
