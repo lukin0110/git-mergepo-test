@@ -12,15 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "We'll send you an email containing the prospectus shortly. Boewhja"
-msgstr ""
-
-msgid "Peppi en kokkie"
-msgstr ""
-
-# Commentaar hier
-msgid "Tuut"
-msgstr "Nee"
+msgstr "Insert text here"
 
 msgid "Test"
 msgstr "I'm text branch branch"
 
+msgid "Test"
+msgstr "Duplication"
