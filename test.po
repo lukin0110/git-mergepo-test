@@ -15,4 +15,4 @@ msgid "We'll send you an email containing the prospectus shortly. Boewhja"
 msgstr "Insert text here"
 
 msgid "Test"
-msgstr "I'm text branch TEST"
+msgstr "I'm text branch MASTER"
