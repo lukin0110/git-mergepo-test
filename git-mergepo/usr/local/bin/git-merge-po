@@ -22,6 +22,11 @@
 O=$1
 A=$2
 B=$3
+
+# Make messages unique in their own file ... is not valid anyways
+msguniq $O -o $O
+msguniq $A -o $A
+msguniq $B -o $B
  
 # Extract the PO header from the current branch (top of file until first empty line)
 header=$(mktemp /tmp/merge-po.XXXX)
@@ -31,14 +36,13 @@ sed -e '/^$/q' < $A > $header
 temp=$(mktemp /tmp/merge-po.XXXX)
 msgcat -o $temp $A $B
 msgcat --use-first -o $A $header $temp
-msguniq $A -o $A 
 
 # Clean up
 rm $header $temp
  
 # Check for conflicts
 conflicts=$(grep -c "#-#" $A)
-test $conflicts -gt 0 && { echo "TRANSLATION CONFLICT: $conflicts"; exit 1; }
+test $conflicts -gt 0 && { echo "TRANSLATION CONFLICT: ($conflicts / 2)"; exit 1; }
 exit 0
 
 

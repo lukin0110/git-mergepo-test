@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Custom Git *.mo merge driver - always use 'their' mo file.
+# mo files shouldn't be in git, this avoids conflicts with it.
+# mo files will be generated once a Django app is deployed.
+#
+# http://stackoverflow.com/questions/2408748/how-to-handle-gitting-of-binaries-e-g-mo-files
+# 
+mv -f %3 %2
+exit 0
+
+
