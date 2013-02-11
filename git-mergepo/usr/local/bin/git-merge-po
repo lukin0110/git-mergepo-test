@@ -22,6 +22,11 @@
 O=$1
 A=$2
 B=$3
+
+echo "Banaan is lekker"
+echo $O
+echo $A
+echo $B
  
 # Extract the PO header from the current branch (top of file until first empty line)
 header=$(mktemp /tmp/merge-po.XXXX)
@@ -31,7 +36,6 @@ sed -e '/^$/q' < $A > $header
 temp=$(mktemp /tmp/merge-po.XXXX)
 msgcat -o $temp $A $B
 msgcat --use-first -o $A $header $temp
-msguniq $A -o $A 
 
 # Clean up
 rm $header $temp

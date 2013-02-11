@@ -1,17 +1,27 @@
 #!/bin/sh
-#echo "Pre remove"
-
 echo "Removing /usr/local/bin/git-merge-po"
 if [ -f /usr/local/bin/git-merge-po ]
 then
 	rm /usr/local/bin/git-merge-po
 fi
 
+echo "Removing /usr/local/bin/git-merge-mo"
+if [ -f /usr/local/bin/git-merge-mo ]
+then
+	rm /usr/local/bin/git-merge-mo 
+fi
+
 # Search for 'merge "pofile"' and delete it together with the 2 consecutive lines
-echo "Removing custom driver config from /etc/gitconfig"
+echo "Removing po driver from /etc/gitconfig"
 if grep -q '\[merge "pofile"\]' /etc/gitconfig; 
 then
 	sed --in-place '/\[merge "pofile"\]/,+2d' /etc/gitconfig
+fi
+
+echo "Removing mo driver from /etc/gitconfig"
+if grep -q '\[merge "mofile"]' /etc/gitconfig;
+then
+	sed --in-place '/\[merge "mofile"\]/,+2d' /etc/gitconfig
 fi
 
 
