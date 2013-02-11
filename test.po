@@ -24,5 +24,3 @@ msgstr "Nee"
 msgid "Test"
 msgstr "I'm text branch branch"
 
-msgid "Test 2"
-msgstr "Whoppa master 3"
