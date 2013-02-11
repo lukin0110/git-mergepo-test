@@ -22,5 +22,5 @@ msgid "Tuut"
 msgstr "Nee"
 
 msgid "Test"
-msgstr "I'm text branch branch"
+msgstr "I'm text branch TEST"
 
