@@ -14,12 +14,5 @@ msgstr ""
 msgid "We'll send you an email containing the prospectus shortly. Boewhja"
 msgstr "Insert text here"
 
-msgid "Peppi en kokkie"
-msgstr ""
-
-# Commentaar hier
-msgid "Tuut"
-msgstr "Nee"
-
 msgid "Test"
 msgstr "I'm text branch TEST"
