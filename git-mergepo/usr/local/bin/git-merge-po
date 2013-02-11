@@ -23,10 +23,10 @@ O=$1
 A=$2
 B=$3
 
-echo "Banaan is lekker"
-echo $O
-echo $A
-echo $B
+# Make messages unique in their own file ... is not valid anyways
+msguniq $O -o $O
+msguniq $A -o $A
+msguniq $B -o $B
  
 # Extract the PO header from the current branch (top of file until first empty line)
 header=$(mktemp /tmp/merge-po.XXXX)
