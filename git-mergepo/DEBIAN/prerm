@@ -7,7 +7,11 @@ then
 	rm /usr/local/bin/git-merge-po
 fi
 
-echo "Removing custom driver config"
-echo "TODO ..."
+# Search for 'merge "pofile"' and delete it together with the 2 consecutive lines
+echo "Removing custom driver config from /etc/gitconfig"
+if grep -q '\[merge "pofile"\]' /etc/gitconfig; 
+then
+	sed --in-place '/\[merge "pofile"\]/,+2d' /etc/gitconfig
+fi
 
 
