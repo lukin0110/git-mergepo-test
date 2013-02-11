@@ -29,7 +29,7 @@ msgid "Tuut"
 msgstr "Nee"
 
 msgid "Test"
-msgstr "I'm text branch"
+msgstr "I'm text branch 2"
 
 msgid "Test 2"
 msgstr "Whoppa master 3"
