@@ -23,7 +23,7 @@ O=$1
 A=$2
 B=$3
 
-# Make messages unique in their own file ... is not valid anyways
+# Make messages unique in their own file ... duplicate messages aren't valid anyways
 msguniq $O -o $O
 msguniq $A -o $A
 msguniq $B -o $B
@@ -41,8 +41,13 @@ msgcat --use-first -o $A $header $temp
 rm $header $temp
  
 # Check for conflicts
-conflicts=$(grep -c "#-#" $A)
-test $conflicts -gt 0 && { echo "TRANSLATION CONFLICT: ($conflicts / 2)"; exit 1; }
+conflicts=$(grep -c "#-#" $A);
+if [ $(($conflicts % 2)) -eq 1 ]
+then
+        conflicts=$(($conflicts + 1));
+fi
+conflicts=$(($conflicts / 2));
+test $conflicts -gt 0 && { echo "\n!!! TRANSLATION CONFLICTS: $conflicts !!!\n"; exit 1; }
 exit 0
 
 

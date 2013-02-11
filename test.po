@@ -14,8 +14,15 @@ msgstr ""
 msgid "We'll send you an email containing the prospectus shortly. Boewhja"
 msgstr ""
 
+msgid "Peppi en kokkie"
+msgstr ""
+
+# Commentaar hier
+msgid "Tuut"
+msgstr "Nee"
+
 msgid "Test"
-msgstr "I'm text master"
+msgstr "I'm text branch 2"
 
 msgid "Test 2"
 msgstr "Whoppa master 3"
