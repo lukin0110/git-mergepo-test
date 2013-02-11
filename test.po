@@ -14,22 +14,5 @@ msgstr ""
 msgid "We'll send you an email containing the prospectus shortly. Boewhja"
 msgstr ""
 
-msgid "Peppi en kokkie"
-msgstr ""
-
-msgid "dddd"
-msgstr "Wazzup"
-
-#, fuzzy
-msgid "Knallen"
-msgstr "Batsen nondedju, opnieuw master"
-
-# Commentaar hier
-msgid "Tuut"
-msgstr "Nee"
-
 msgid "Test"
-msgstr "I'm text"
-
-msgid "Test 2"
-msgstr "Whoppa master 3"
+msgstr "Test from master"
