@@ -60,6 +60,8 @@ def merge_entry(oentry, aentry, bentry, branchname):
         elif oentry and oentry.msgstr != aentry.msgstr and oentry.msgstr == bentry.msgstr:
             # bentry updated
             result = aentry
+        elif aentry.msgstr == bentry.msgstr:
+            retult = aentry
         else:
             # Merge conflict, aentry and bentry have been changed
             #print "Conflict ", str(oentry.msgstr), ", ", str(aentry.msgstr), ", ", str(bentry.msgstr)
@@ -113,8 +115,8 @@ def mergepo(o, a, b):
         odict[value.msgid] = value
 
     # Append all entries to the temp po file
-    for key, value in odict.iteritems():
-        temp_po.append(value)
+    for item in sorted(odict.iteritems()):
+        temp_po.append(item[1])
 
     # Export the merged po file
     temp_po.metadata = afile.metadata
