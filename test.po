@@ -19,4 +19,4 @@ msgid "We'll send you an email containing the prospectus shortly. Boewhja"
 msgstr "Insert text here"
 
 msgid "Test 1"
-msgstr "Test 1.1 BRANCH"
+msgstr "Test 1.1 MASTER"
