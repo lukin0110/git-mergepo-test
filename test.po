@@ -16,3 +16,6 @@ msgstr "Insert text here"
 
 msgid "Test"
 msgstr "I'm text branch MASTER"
+
+msgid "Test 1"
+msgstr "Test 1.1"
